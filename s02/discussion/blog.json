@@ -1,0 +1,22 @@
+[
+    {
+        "_id" : "631226e69a53320f6eba077d",
+        "title" : "This is an awesome blog",
+        "content" : "This is an awesome blog that I created",
+        "createdOn" : "7/26/2022",
+        "authot" : "blogwriter",
+        "comments" : [ 
+            {
+                "id" : "blogcomment1",
+                "comment" : "awesome blog",
+                "author" : "blogwriter"
+            }, 
+            {
+                "id" : "blogcomment2",
+                "comment" : "Meh, Not awesome at all.",
+                "author" : "notHater22"
+            }
+        ]
+    }
+    
+    ]

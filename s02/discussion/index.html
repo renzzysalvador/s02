@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database</title>
+</head>
+<body>
+
+    <script = type="text/javascript">
+        let blog = `[
+    {
+        "_id" : "631226ecbab5515d9e66302f",
+        "title" : "This is an awesome blog",
+        "content" : "This is an awesome blog that I created",
+        "createdOn" : "7/26/2022",
+        "authot" : "blogwriter",
+        "comments" : [ 
+            {
+                "id" : "blogcomment1",
+                "comment" : "awesome blog",
+                "author" : "blogwriter"
+            }, 
+            {
+                "id" : "blogcomment2",
+                "comment" : "Meh, Not awesome at all.",
+                "author" : "notHater22"
+            }
+        ]
+    }
+] `;
+//console.log(blog);
+console.log(JSON.parse(blog)[0].comments);
+
+    </script>
+</body>
+</html>

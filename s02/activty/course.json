@@ -1,0 +1,42 @@
+[
+    {
+        "_id" :"6319950018830135cbde294e",
+        "name" : "Networking",
+        "description" : "netacad",
+        "price" : 4000,
+        "slots" : 20,
+        "schedule" : "10:30am-12:30pm",
+        "instructor" : "Ms.Paraon",
+        "isActive" : true,
+        "enrollees" : [ 
+            {
+                "enrollee_id" : 1,
+                "userId" : "6319937018830135cbde291e",
+                "userName" : "student_one",
+                "isPaid" : true,
+                "dateEnrolled" : "2022/8/8"
+            }
+        ]
+    },
+
+
+    {
+        "_id" :"6319958e18830135cbde2959",
+        "name" : "BSIT",
+        "description" : "Science and Technology",
+        "price" : 4500,
+        "slots" : 25,
+        "schedule" : "1:00-3:00pm",
+        "instructor" : "Ms.Salvador",
+        "isActive" : true,
+        "enrollees" : [ 
+            {
+                "enrollee_id" : 1,
+                "userId" : "6319940518830135cbde292b",
+                "userName" : "student_two",
+                "isPaid" : true,
+                "dateEnrolled" : "08/9/2022"
+            }
+        ]
+    }
+]

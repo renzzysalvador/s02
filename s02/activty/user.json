@@ -1,0 +1,41 @@
+[
+    {
+        "_id" :"6319937018830135cbde291e",
+        "username" : "student_one",
+        "firstName" : "Anthony",
+        "lastName" : "Salvador",
+        "email" : "renzzysalvador@gmail.com",
+        "password" : "9876554",
+        "mobileNumber" : "09816276338",
+        "isAdmin" : false,
+        "enrollments" : [ 
+            {
+                "enrollment_id" : "1",
+                "course_id" : "1",
+                "courseName" : "Networking",
+                "isPaid" : true,
+                "dateEnrolled" : "08/8/2022"
+            }
+        ]
+    },
+
+    {
+        "_id" : "6319940518830135cbde292b",
+        "username" : "student_two",
+        "firstName" : "Jose",
+        "lastName" : "Paraon panget",
+        "email" : "joseparaonpanget@gmail.com",
+        "password" : "9273972",
+        "mobileNumber" : "09277378946",
+        "isAdmin" : false,
+        "enrollments" : [ 
+            {
+                "enrollment_id" : "2",
+                "course_id" : "2",
+                "courseName" : "BSIT",
+                "isPaid" : true,
+                "dateEnrolled" : "08/9/2022"
+            }
+        ]
+    }
+]
